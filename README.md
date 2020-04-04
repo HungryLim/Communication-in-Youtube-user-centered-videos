@@ -80,13 +80,16 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
   * Test the model
 
 # Exploratory analysis: using title
-<p align="center">
-<img src="images/title.png" width="400" //>
+<p  align="center">
+    <img src="images/title.pn" alt>
+    <em>Frequent keywords from video title</em>
 </p>
 
+
 # Exploratory analysis: using transcript
-<p align="center">
-<img src="images/caption.png" width="400" //>
+<p  align="center">
+    <img src="images/caption.pn" alt>
+    <em>Frequent keywords from video transcript</em>
 </p>
 
 
