@@ -32,16 +32,83 @@ download video, download transcript for analysis
   
   
 # Data collecting process
-Video and transcript
-	\begin{itemize}
-	    \item Using all legislators' available Youtube channel id, I scrapped the videos urls.
-	    \item Download data to local drive and convert them
-	    \item Move the data to Box cloud drive
-	    \item Using Cluster to finish the looping
-	\end{itemize}
-Descriptive data of videos
-\begin{itemize}
-    \item Youtube API
-    \item Other Python packages 
-\end{itemize}
-		    
+* Videos and transcripts
+  * Using all legislators' available Youtube channel id, I scrapped the videos urls.
+  * Download data to local drive and convert them
+  * Move the data to Box cloud drive
+  * Using Cluster to finish the looping
+
+* Descriptive data of videos
+   * Youtube API
+   * Other Python packages 
+
+# Data
+* Goal: All legislators' available Youtube data from their channels
+  * Current status:
+  * Total 484 legislators (House and Senate) as of 2018 October
+  * 14265 URLs
+  * 5871 videos
+  * 5155 transcripts (captions)
+  * Total about 300 GB
+
+# Outline of processed data
+<p align="center">
+<img src="excelimage.PNG" width="400" //>
+</p>
+
+
+# Data: transcript (caption)
+Rep. House Todd Young (current Senator) on Gun control. [Link](https://www.youtube.com/watch?v=T3NDoxKH_fU)
+
+Transcript: 
+
+hello and welcome to our latest edition of talking with Todd an opportunity for me to periodically share with you my thoughts on important issues before Congress and to discuss topics which are important to Hoosiers today I'll focus on some of the proposals to reduce gun violence that have been discussed in recent weeks many of you have called or in the office to ask where I stand thank you let's not mince words I'm a strong supporter of the Second Amendment and I have an A rating with the National Rifle Association while I can support measures to keep guns out of the hands of criminals I will not support any legislation that infringes on the
+ability of law-abiding citizens to exercise their constitutionally guaranteed right to the legal gun ownership the Supreme Court has made it clear that the Second Amendment right to keep and bear arms is an explicitly ......
+
+
+
+# Method for classification
+* Goal: Classifying types of videos
+* Method: supervised learning: random forest
+  * Hand-coded 200 videos: 9 types
+    * cspan, hearing, message, mis, news, newsinterview, press, service, speech 
+  * Create document-term matrix
+  *  Exploratory analysis: chart
+  * Train the model (using video title or transcript)
+  * Test the model
+
+# Exploratory analysis: using title
+<p align="center">
+<img src="title.PNG" width="400" //>
+</p>
+
+# Exploratory analysis: using transcript
+<p align="center">
+<img src="caption.png" width="400" //>
+</p>
+
+
+# Prediction: using title
+35 percent accuracy
+<img src="table.PNG" width="400" //>
+
+
+# Prediction: using transcript
+31 percent accuracy
+<img src="table2.PNG" width="400" //>
+
+# Conclusion
+* Using title shows better accuracy than using transcript based on random forest model.
+* Random forest model may not be the best model.
+* There are problems in hand-coding.
+   * Too many different classifier and subtle differences.
+   * Only 100 train data set and 100 test data set
+   * Unsupervised learning may work better.
+
+
+# Future direction
+Data
+* Scrap all videos from given Channels
+* Use unsupervised learning models
+* Get comments data from each videos
+
