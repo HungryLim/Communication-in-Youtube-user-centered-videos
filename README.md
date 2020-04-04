@@ -79,7 +79,7 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
 
 # Exploratory analysis: using title
 <p align="center">
-<img src="images/title.PNG" width="400" //>
+<img src="images/title.png" width="400" //>
 </p>
 
 # Exploratory analysis: using transcript
@@ -90,12 +90,15 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
 
 # Prediction: using title
 35 percent accuracy
+<p align="center">
 <img src="images/table.PNG" width="400" //>
-
+</p>
 
 # Prediction: using transcript
 31 percent accuracy
+<p align="center">
 <img src="images/table2.PNG" width="400" //>
+</p>
 
 # Conclusion
 * Using title shows better accuracy than using transcript based on random forest model.
