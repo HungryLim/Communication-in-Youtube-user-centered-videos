@@ -1,4 +1,4 @@
-# Politicians in Youtube: How do they use their Youtube Channel? 
+# Politicians in Youtube: How do they use their Youtube Channel? User-centered videos
 
 How do politicians use their Youtube channel? I argue that politicians use their Youtube channel to communicate with their core supporters who closely follow legislative speech and behaviors. Compared to other media outlet often used by politicians such as Twitter or Facebook, Youtube videos in politicians' channels are more focsued on their floor speech or policy-focused messages.
 
