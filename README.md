@@ -55,10 +55,10 @@ download video, download transcript for analysis
 
 # Outline of processed data
 <p align="center">
-  <img alt="img-name" src="images/excelimage.PNG"  width="400" >
-  <img alt="img-name" src="images/excelimage.PNG"  width="400" >
+  <img alt="img-name" src="images/excelimage.PNG"  width="350" >
+  <img alt="img-name" src="images/meta_ch.PNG"  width="350" >
   <br>
-    <em>Example&emsp;&emsp; &emsp; &emsp;&emsp;&emsp; &emsp; &emsp;   sdfsdfsd</em>
+    <em>Video metadata&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Channel metadata</em>
 </p>
 
 
@@ -87,12 +87,12 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
   * Test the model
 
 # Exploratory analysis: using title
-<p  align="center">
-    <img src="images/title.png" width="900" // >
-    <em>Frequent keywords from video title</em>
+
+<p align="center">
+  <img alt="img-name" src="images/title.png"  width="900" >
+  <br>
+    <em>Frequent keywords from video title</em></em>
 </p>
-
-
 # Exploratory analysis: using transcript
 <p  align="center">
     <img src="images/caption.png"  width="900" //>
