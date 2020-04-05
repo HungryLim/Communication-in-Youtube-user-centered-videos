@@ -55,11 +55,18 @@ download video, download transcript for analysis
 
 # Outline of processed data
 <p align="center">
-<img src="images/excelimage.PNG" width="400" //>
+  <img alt="img-name" src="images/excelimage.PNG"  width="400" >
+  <img alt="img-name" src="images/excelimage.PNG"  width="400" >
+  <br>
+    <em>Example&emsp;&emsp; &emsp; &emsp;&emsp;&emsp; &emsp; &emsp;   sdfsdfsd</em>
 </p>
 
 
+
+                                                                                                               
+                                                                                                               
 # Data: transcript (caption)
+                                                                                                               
 Rep. House Todd Young (current Senator) on Gun control. [Link](https://www.youtube.com/watch?v=T3NDoxKH_fU)
 
 Transcript: 
@@ -81,14 +88,14 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
 
 # Exploratory analysis: using title
 <p  align="center">
-    <img src="images/title.pn" alt>
+    <img src="images/title.png" width="900" // >
     <em>Frequent keywords from video title</em>
 </p>
 
 
 # Exploratory analysis: using transcript
 <p  align="center">
-    <img src="images/caption.pn" alt>
+    <img src="images/caption.png"  width="900" //>
     <em>Frequent keywords from video transcript</em>
 </p>
 
