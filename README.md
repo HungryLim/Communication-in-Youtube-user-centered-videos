@@ -63,6 +63,7 @@ With video meta data, we can investigate various questions. What types of videos
   * Total about 300 GB
 
 # Outline of processed data
+Through the data collection process, I will have three data sets: video metadata, channel meta data, and cloud data archive.
 <p align="center">
   <img alt="img-name" src="images/excelimage.PNG"  width="350" >
   <img alt="img-name" src="images/meta_ch.PNG"  width="350" >
