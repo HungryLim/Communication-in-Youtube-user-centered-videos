@@ -37,19 +37,25 @@ download video, download transcript for analysis
   
   
 # Data collecting process
+The Python script for data collection is in [here](https://github.com/HungryLim/Communication-in-Youtube-user-centered-videos/blob/master/collectiong.py)
 * Videos and transcripts
-  * Using all legislators' available Youtube channel id, I scrapped the videos urls.
-  * Download data to local drive and convert them
-  * Move the data to Box cloud drive
-  * Using Cluster to finish the looping
+  * Using all legislators' available Youtube channel id, I scrapped the videos urls. (Python package Youtube_dl)
+  * Download data to local drive and convert them (FFmpeg)
+  * Move the data to Box cloud drive (FTP protocol)
+  * Using Cluster to finish the looping (write cluster in WashU Center for High Performance Computing)
 
 * Descriptive data of videos
    * Youtube API
    * Other Python packages 
 
 # Data
+The meta data will be two parts: Channel data and video data. Channel data have channel id, view count, subscriber count and video count. Video data have title, url, duration, author, thumbnail, video id, view count, likes and dislikes. To get channel meta data, I need to use Youtube API because Youtube\_dl does not provide these information. 
+
+With this channel data, we can study who uses Youtbe more than other legislators for what purposes. The subscriber data and number of video data might be useful although the comparison among legislators using this information should be cautious. It is because some legislators have been in there office longer than others. However, this channel data can be useful meta data for further analysis by using video data.
+
+With video meta data, we can investigate various questions. What types of videos are more popular than the others? What types of videos are uploaded in their youtube channel? More generally we can study how politicians use their Youtube channel different from their Twitter and Facebook. These questions are little explored in political science literature.
+
 * Goal: All legislators' available Youtube data from their channels
-  * Current status:
   * Total 484 legislators (House and Senate) as of 2018 October
   * 14265 URLs
   * 5871 videos
