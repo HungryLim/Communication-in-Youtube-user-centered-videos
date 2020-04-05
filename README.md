@@ -1,6 +1,8 @@
-# Politicians in Youtube: How do they use their Youtube Channel? 
+# Politicians in Youtube: How do they use their Youtube Channel? User-centered videos
 
 How do politicians use their Youtube channel? I argue that politicians use their Youtube channel to communicate with their core supporters who closely follow legislative speech and behaviors. Compared to other media outlet often used by politicians such as Twitter or Facebook, Youtube videos in politicians' channels are more focsued on their floor speech or policy-focused messages.
+
+In this project report, I mainly focus on explaining data collection, metadata and data in detail. The Youtube project can be developed in various aspects, but the important point of this project is collecting Youtube data. Therefore, I will focus on data part only in here. The data can help to understand many important questions. Which politicians use Youtube for what purposes? Are politicians’ Youtube contents different from their other media outlets such as Twitter and Facebook? How do politicians use their Youtube channel? How do politicians use emotions to affect audience? How do politicians use images? What is politicians’ campaign strategy? 
 
 # Motivation
 * Youtube is one of the major information sources
@@ -53,11 +55,18 @@ download video, download transcript for analysis
 
 # Outline of processed data
 <p align="center">
-<img src="excelimage.PNG" width="400" //>
+  <img alt="img-name" src="images/excelimage.PNG"  width="400" >
+  <img alt="img-name" src="images/excelimage.PNG"  width="400" >
+  <br>
+    <em>Example&emsp;&emsp; &emsp; &emsp;&emsp;&emsp; &emsp; &emsp;   sdfsdfsd</em>
 </p>
 
 
+
+                                                                                                               
+                                                                                                               
 # Data: transcript (caption)
+                                                                                                               
 Rep. House Todd Young (current Senator) on Gun control. [Link](https://www.youtube.com/watch?v=T3NDoxKH_fU)
 
 Transcript: 
@@ -78,24 +87,30 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
   * Test the model
 
 # Exploratory analysis: using title
-<p align="center">
-<img src="title.PNG" width="400" //>
+<p  align="center">
+    <img src="images/title.png" width="900" // >
+    <em>Frequent keywords from video title</em>
 </p>
 
+
 # Exploratory analysis: using transcript
-<p align="center">
-<img src="caption.png" width="400" //>
+<p  align="center">
+    <img src="images/caption.png"  width="900" //>
+    <em>Frequent keywords from video transcript</em>
 </p>
 
 
 # Prediction: using title
 35 percent accuracy
-<img src="table.PNG" width="400" //>
-
+<p align="center">
+<img src="images/table.PNG" width="400" //>
+</p>
 
 # Prediction: using transcript
 31 percent accuracy
-<img src="table2.PNG" width="400" //>
+<p align="center">
+<img src="images/table2.PNG" width="400" //>
+</p>
 
 # Conclusion
 * Using title shows better accuracy than using transcript based on random forest model.
