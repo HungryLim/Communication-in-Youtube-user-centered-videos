@@ -4,6 +4,9 @@ How do politicians use their Youtube channel? I argue that politicians use their
 
 In this project report, I mainly focus on explaining data collection, metadata and data in detail. The Youtube project can be developed in various aspects, but the important point of this project is collecting Youtube data. Therefore, I will focus on data part only in here. The data can help to understand many important questions. Which politicians use Youtube for what purposes? Are politicians’ Youtube contents different from their other media outlets such as Twitter and Facebook? How do politicians use their Youtube channel? How do politicians use emotions to affect audience? How do politicians use images? What is politicians’ campaign strategy? 
 
+This report is focused on the collection of data and classification for futuer direction of our research.
+Please find my presentaiton file here and report in here.
+
 # Motivation
 * Youtube is one of the major information sources
 * Little known about how legislators show themselves in their Youtube Channel
@@ -55,18 +58,16 @@ download video, download transcript for analysis
 
 # Outline of processed data
 <p align="center">
-  <img alt="img-name" src="images/excelimage.PNG"  width="400" >
-  <img alt="img-name" src="images/excelimage.PNG"  width="400" >
+  <img alt="img-name" src="images/excelimage.PNG"  width="350" >
+  <img alt="img-name" src="images/meta_ch.PNG"  width="350" >
   <br>
-    <em>Example&emsp;&emsp; &emsp; &emsp;&emsp;&emsp; &emsp; &emsp;   sdfsdfsd</em>
+    <em>Video metadata&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Channel metadata</em>
 </p>
 
 
-
+                                                                                                              
                                                                                                                
-                                                                                                               
-# Data: transcript (caption)
-                                                                                                               
+# Data: transcript (caption)                                                                                                         
 Rep. House Todd Young (current Senator) on Gun control. [Link](https://www.youtube.com/watch?v=T3NDoxKH_fU)
 
 Transcript: 
@@ -87,15 +88,16 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
   * Test the model
 
 # Exploratory analysis: using title
-<p  align="center">
-    <img src="images/title.png" width="900" // >
-    <em>Frequent keywords from video title</em>
+
+<p align="center">
+  <img alt="img-name" src="images/title.png"  width="900" >
+  <br>
+    <em>Frequent keywords from video title</em></em>
 </p>
-
-
 # Exploratory analysis: using transcript
 <p  align="center">
-    <img src="images/caption.png"  width="900" //>
+    <img src="images/caption.png"  width="700" //>
+    <br>
     <em>Frequent keywords from video transcript</em>
 </p>
 
@@ -104,21 +106,34 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
 35 percent accuracy
 <p align="center">
 <img src="images/table.PNG" width="400" //>
+    <br>
+   <em>Prediction of classification success rate: using title</em>
 </p>
 
 # Prediction: using transcript
 31 percent accuracy
 <p align="center">
 <img src="images/table2.PNG" width="400" //>
+    <br>
+   <em> Prediction of classification success rate: using transcript</em>
 </p>
 
-# Conclusion
+# Classification results
 * Using title shows better accuracy than using transcript based on random forest model.
 * Random forest model may not be the best model.
 * There are problems in hand-coding.
    * Too many different classifier and subtle differences.
    * Only 100 train data set and 100 test data set
    * Unsupervised learning may work better.
+
+
+# Findings and implications
+* Most videos in legislators' channels are cspan videos (about 51 percent).
+* Unlike Twitter messages or Facebook posts, Youtube video contents are more focused on floor speech (cspan), policy-focused messages, news media interview, and congressional hearing.
+   * Overall, the messages and contents are more professional and complex than Twitter or Facebook posts that have a wider range of audience (general public). 
+* This video contents in Youtube suggest that the subscribers, listeners, or followers of legislators' channels are more likely to be the core supporters and people who have higher political knowledge. 
+* This can also implies that the reason why the video contents are more focused on cspan and other "pre-made" video contents (news interview, congressional hearing) is the cost of making video contents are more expensive than other media contents such as Twitter or Facebook. This could mean that the Youtube contents are more focused on more professional messages just because of the legislators' cost-benefit calculation of their media strategies.
+
 
 
 # Future direction
