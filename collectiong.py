@@ -60,7 +60,7 @@ for i, row in data.iterrows():
         
         #upload video
         ftp = FTP('ftp.box.com')  
-        ftp.login('hyunwoolim@wustl.edu', 'Qq1047921!') 
+        ftp.login('id', 'password') 
         ftp.cwd("Videos_master/videos")
 
         with open(conv_first_file, 'rb') as f:  
@@ -94,7 +94,7 @@ for i, row in data.iterrows():
             capname=re.sub('[^.A-Za-z0-9]+', ' ', capname_1)
             
             ftp = FTP('ftp.box.com')  
-            ftp.login('hyunwoolim@wustl.edu', 'Qq1047921!') 
+            ftp.login('id', 'password') 
             ftp.cwd("Videos_master/captions")
 
             with open(cap,'rb') as t:
