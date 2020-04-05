@@ -117,16 +117,21 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
    <em> Prediction of classification success rate: using transcript</em>
 </p>
 
-# Findings
-The
-
-# Conclusion
+# Classification results
 * Using title shows better accuracy than using transcript based on random forest model.
 * Random forest model may not be the best model.
 * There are problems in hand-coding.
    * Too many different classifier and subtle differences.
    * Only 100 train data set and 100 test data set
    * Unsupervised learning may work better.
+
+
+# Findings and implications
+* Most videos in legislators' channels are cspan videos (about 51 percent).
+* Unlike Twitter messages or Facebook posts, Youtube video contents are more focused on floor speech (cspan), policy-focused messages, news media interview, and congressional hearing.
+   * Overall, the messages and contents are more professional and complex than Twitter or Facebook posts that have a wider range of audience (general public). 
+* This video contents in Youtube suggest that the subscribers, listeners, or followers of legislators' channels are more likely to be the core supporters and people who have higher political knowledge. 
+* This can also implies that the reason why the video contents are more focused on cspan and other "pre-made" video contents (news interview, congressional hearing) is the cost of making video contents are more expensive than other media contents such as Twitter or Facebook. This could mean that the Youtube contents are more focused on more professional messages just because of the legislators' cost-benefit calculation of their media strategies.
 
 
 
