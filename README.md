@@ -5,7 +5,7 @@ How do politicians use their Youtube channel? I argue that politicians use their
 In this project report, I mainly focus on explaining data collection, metadata and data in detail. The Youtube project can be developed in various aspects, but the important point of this project is collecting Youtube data. Therefore, I will focus on data part only in here. The data can help to understand many important questions. Which politicians use Youtube for what purposes? Are politicians’ Youtube contents different from their other media outlets such as Twitter and Facebook? How do politicians use their Youtube channel? How do politicians use emotions to affect audience? How do politicians use images? What is politicians’ campaign strategy? 
 
 This report is focused on the collection of data and classification for futuer direction of our research.
-Please find my presentaiton file here and report in here.
+Please find my presentaiton file [here](https://github.com/HungryLim/Communication-in-Youtube-user-centered-videos/blob/master/Youtube_proj_presentation.pdf) and report in [here](https://github.com/HungryLim/Communication-in-Youtube-user-centered-videos/blob/master/Youtube_proj_report.pdf).
 
 # Motivation
 * Youtube is one of the major information sources
@@ -126,6 +126,23 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
    * Only 100 train data set and 100 test data set
    * Unsupervised learning may work better.
 
+<p align="center">
+  <img alt="img-name" src="images/cspan.PNG"  width="350" >
+  <img alt="img-name" src="images/hearing.PNG"  width="350" >
+  <br>
+    <em>Video metadata&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Channel metadata</em>
+</p>
+
+<p align="center">
+  <img alt="img-name" src="images/news.PNG"  width="350" >
+  <img alt="img-name" src="images/message.PNG"  width="350" >
+  <br>
+    <em>Video metadata&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Channel metadata</em>
+</p>
+For the class, I use supervised learning method to classify videos. First, I hand-coded 100 videos of test set data to classify them with 9 types: cspan, hearing, message, mis, news, newsinterview, press, service and speech. This is my arbitrary coding method. From randomly selecting videos, in my observation, there are largely four types of videos in legislators' Youtube channel: C-SPAN, hearing, news interview of the legislator and message to Youtube viewers.
+
+
+In the future, we should use unsupervised learning to classify video type by using transcription data. When I used random forest model for supervised learning with 100 hand-coded training set and 100 test data, the accuracy was quite low. The accuracy rate with transcript was about 31 percent, and the accuracy rate with title of video was about 35 percent. The accuracy might be low because of following reasons: first, the training data and test data were too small. Second, the 9 types of video that I arbitrarily created are too many. Third, random forest model is not the best method to classify these kind of data. 
 
 # Findings and implications
 * Most videos in legislators' channels are cspan videos (about 51 percent).
