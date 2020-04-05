@@ -71,16 +71,11 @@ With video meta data, we can investigate various questions. What types of videos
 </p>
 
 
-                                                                                                              
-                                                                                                               
-# Data: transcript (caption)                                                                                                         
-Rep. House Todd Young (current Senator) on Gun control. [Link](https://www.youtube.com/watch?v=T3NDoxKH_fU)
-
-Transcript: 
-
-hello and welcome to our latest edition of talking with Todd an opportunity for me to periodically share with you my thoughts on important issues before Congress and to discuss topics which are important to Hoosiers today I'll focus on some of the proposals to reduce gun violence that have been discussed in recent weeks many of you have called or in the office to ask where I stand thank you let's not mince words I'm a strong supporter of the Second Amendment and I have an A rating with the National Rifle Association while I can support measures to keep guns out of the hands of criminals I will not support any legislation that infringes on the
-ability of law-abiding citizens to exercise their constitutionally guaranteed right to the legal gun ownership the Supreme Court has made it clear that the Second Amendment right to keep and bear arms is an explicitly ......
-
+<p align="center">
+  <img alt="img-name" src="images/video.PNG"  width="600" >
+  <br>
+    <em>Data archive</em>
+</p>
 
 
 # Method for classification
@@ -100,6 +95,8 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
   <br>
     <em>Frequent keywords from video title</em></em>
 </p>
+
+
 # Exploratory analysis: using transcript
 <p  align="center">
     <img src="images/caption.png"  width="700" //>
@@ -136,14 +133,14 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
   <img alt="img-name" src="images/cspan.PNG"  width="350" >
   <img alt="img-name" src="images/hearing.PNG"  width="350" >
   <br>
-    <em>Video metadata&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Channel metadata</em>
+    <em>C-SPAN&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Hearing</em>
 </p>
 
 <p align="center">
   <img alt="img-name" src="images/news.PNG"  width="350" >
   <img alt="img-name" src="images/message.PNG"  width="350" >
   <br>
-    <em>Video metadata&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Channel metadata</em>
+    <em>News interviews&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Messages</em>
 </p>
 For the class, I use supervised learning method to classify videos. First, I hand-coded 100 videos of test set data to classify them with 9 types: cspan, hearing, message, mis, news, newsinterview, press, service and speech. This is my arbitrary coding method. From randomly selecting videos, in my observation, there are largely four types of videos in legislators' Youtube channel: C-SPAN, hearing, news interview of the legislator and message to Youtube viewers.
 
