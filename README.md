@@ -62,11 +62,9 @@ download video, download transcript for analysis
 </p>
 
 
-
+                                                                                                              
                                                                                                                
-                                                                                                               
-# Data: transcript (caption)
-                                                                                                               
+# Data: transcript (caption)                                                                                                         
 Rep. House Todd Young (current Senator) on Gun control. [Link](https://www.youtube.com/watch?v=T3NDoxKH_fU)
 
 Transcript: 
@@ -95,7 +93,8 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
 </p>
 # Exploratory analysis: using transcript
 <p  align="center">
-    <img src="images/caption.png"  width="900" //>
+    <img src="images/caption.png"  width="700" //>
+    <br>
     <em>Frequent keywords from video transcript</em>
 </p>
 
@@ -104,13 +103,20 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
 35 percent accuracy
 <p align="center">
 <img src="images/table.PNG" width="400" //>
+    <br>
+   <em>Prediction of classification success rate: using title</em>
 </p>
 
 # Prediction: using transcript
 31 percent accuracy
 <p align="center">
 <img src="images/table2.PNG" width="400" //>
+    <br>
+   <em> Prediction of classification success rate: using transcript</em>
 </p>
+
+# Findings
+The
 
 # Conclusion
 * Using title shows better accuracy than using transcript based on random forest model.
@@ -119,6 +125,7 @@ ability of law-abiding citizens to exercise their constitutionally guaranteed ri
    * Too many different classifier and subtle differences.
    * Only 100 train data set and 100 test data set
    * Unsupervised learning may work better.
+
 
 
 # Future direction
