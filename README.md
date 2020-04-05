@@ -5,7 +5,7 @@ How do politicians use their Youtube channel? I argue that politicians use their
 In this project report, I mainly focus on explaining data collection, metadata and data in detail. The Youtube project can be developed in various aspects, but the important point of this project is collecting Youtube data. Therefore, I will focus on data part only in here. The data can help to understand many important questions. Which politicians use Youtube for what purposes? Are politicians’ Youtube contents different from their other media outlets such as Twitter and Facebook? How do politicians use their Youtube channel? How do politicians use emotions to affect audience? How do politicians use images? What is politicians’ campaign strategy? 
 
 This report is focused on the collection of data and classification for futuer direction of our research.
-Please find my presentaiton file here and report in here.
+Please find my presentaiton file [here](https://github.com/HungryLim/Communication-in-Youtube-user-centered-videos/blob/master/Youtube_proj_presentation.pdf) and report in [here](https://github.com/HungryLim/Communication-in-Youtube-user-centered-videos/blob/master/Youtube_proj_report.pdf).
 
 # Motivation
 * Youtube is one of the major information sources
